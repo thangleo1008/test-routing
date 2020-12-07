@@ -1,3 +1,8 @@
 <p>home works!</p>
 <br>
-<h2>helo</h2>
+<h2>hello</h2>
+Mình là <h3 class="bg-red"> {{ name | uppercase }} </h3> năm nay mình <p><strong> {{ age }} </strong></p>
+<ng-template #name1 class="underAge"> Dưới 18 tuổi nhé em </ng-template>
+<ng-template #name2 class="overAge"> trên 18 tuổi đc lấy vợ </ng-template>
+
+<button (click)="tangtuoi()">Lên 1 tuổi đê</button>
